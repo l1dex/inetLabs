@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Макет 1</title>
+
+<script ENGINE="text/javascript" src="https://code.jquery.com/jquery-1.11.2.js "></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  
+<style type="text/css">
+   .header, .footer { background: #D5BAE4; }
+   .layout { 
+    overflow: hidden; /* Отменяем обтекание */
+   }
+   .col1 {
+    background: #C7E3E4; /* Цвет фона */
+    margin-right: 300px; /* Сдвиг влево на ширину колонок 2 и 3 */
+   }
+   .col2 { 
+    background: #E0D2C7; width: 300px;
+    float: right; /* Обтекание слева */
+   }
+   .col3 { 
+    background: #ECD5DE; width: 100px; 
+    float: right; /* Обтекание слева */
+   }
+
+@media screen and (max-width: 475px) {  
+    .col1{display: none;}
+    .header{display: none;}
+.footer{display: none;}
+}
+@media screen and (max-width: 475px) {  
+    .col2 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 475px) {  
+.col3{display: none}
+}
+
+  </style>
+ </head>
+ <body>
+  <div class="header">Шапка сайта</div>
+  <div class="layout">
+   <div class="col3">Колонка 3</div>
+   <div class="col2"> 
+<br>
+<input type="text" name="firstname" value="Only numbers" id="textf">
+<br>
+ 
+<script type="text/javascript">
+	$('#textf').change(function(){
+		var input = $(this).val();
+		if(isNaN(input)) alert('not number');
+	});
+</script> 
+
+  
+<textarea id="txtArea" maxlength="1000">20<len<200</textarea>
+<script type="text/javascript">
+    $('#txtArea').change(function(){
+	var text = $(this).val();
+        if(text.length > 200 || text.length < 20)
+            alert("Too (long or short)");
+        });
+</script>
+ <script type="text/javascript">
+ 	$(document).ready(function(){
+ 		alert(jQuery.fn.jquery);
+ 	});
+ </script>      	
+        <p></p>
+        
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+<script>
+	$('input[id="female"]').click(function(){
+		alert("Only male");
+	});
+</script>
+
+<script>
+	$('input[id="other"]').click(function(){
+		alert("Only male");
+	});
+</script>
+
+   </div>
+   <div class="col1">Колонка 1</div>
+  </div>
+  <div class="footer">Подвал</div>
+ </body>
+</html>

@@ -1,0 +1,2 @@
+openServer
+bd: mysql

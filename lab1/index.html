@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+ <head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Макет 1</title>
+  <style type="text/css">
+   .header, .footer { background: #D5BAE4; }
+   .layout { 
+    overflow: hidden; /* Отменяем обтекание */
+   }
+   .col1 {
+    background: #C7E3E4; /* Цвет фона */
+    margin-right: 300px; /* Сдвиг влево на ширину колонок 2 и 3 */
+font-family: 'Roboto'
+   }
+   .col2 { 
+    background: #E0D2C7; width: 200px;
+    float: right; /* Обтекание слева */
+   }
+   .col3 { 
+    background: #ECD5DE; width: 100px; 
+    float: right; /* Обтекание слева */
+font-family: 'Roboto'
+   }
+
+
+@media screen and (max-width: 600px) {  
+    .col2 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {  
+.col3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {  
+.col1 {
+        width: 100%;
+	margin-right: 0px;
+}
+}
+
+
+
+  </style>
+ </head>
+ <body>
+  <div class="header">Шапка сайта</div>
+  <div class="layout">
+   <div class="col3">Колонка 3</div>
+   <div class="col2">Колонка 2</div>
+   <div class="col1">Колонка 1</div>
+  </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="order-md-1 col-md-4 order-sm-3 col-sm-4 bg-warning">1</div>
+    <div class="order-md-2 col-md-2 order-sm-2 col-sm-2 bg-danger ">2</div>
+    <div class="order-md-3 col-md-6 order-sm-1 col-sm-6 bg-primary ">3</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-1 bg-primary">1</div>
+    <div class="col-sm-1 bg-danger">2</div>
+    <div class="col-sm-1 bg-primary">3</div>
+    <div class="col-sm-1 bg-danger">4</div>
+    
+    <div class="col-sm-1 bg-info">1</div>
+    <div class="col-sm-1 bg-success">2</div>
+
+    <div class="col-sm-1 bg-primary">1</div>
+    <div class="col-sm-1 bg-danger">2</div>
+    <div class="col-sm-1 bg-primary">3</div>
+    <div class="col-sm-1 bg-danger">4</div>
+    <div class="col-sm-1 bg-info">5</div>
+    <div class="col-sm-1 bg-success">6</div>
+  </div>
+</div>
+
+
+<div class="footer">Подвал</div>
+ </body>
+</html>

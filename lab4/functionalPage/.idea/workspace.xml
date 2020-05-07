@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6059c0b-4d61-4b1e-8c6b-0c0129f4e8b5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1acdxqau4CYBT0aaa47Q7CPPEOD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\openServer\OSPanel\domains\functionalPage" />
+      <recent name="C:\openServer\OSPanel\domains\functionalPage\sign" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\openServer\OSPanel\domains\functionalPage\registration" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6059c0b-4d61-4b1e-8c6b-0c0129f4e8b5" name="Default Changelist" comment="" />
+      <created>1587039064961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587039064961</updated>
+      <workItem from="1587039066125" duration="16377000" />
+      <workItem from="1587206055191" duration="7158000" />
+      <workItem from="1588094630704" duration="646000" />
+      <workItem from="1588270694655" duration="703000" />
+      <workItem from="1588274181887" duration="2580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1587060330957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1587060330957" />
+    <state x="498" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587056229259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587056229259" />
+    <state x="528" y="227" key="NewPhpClassDialog" timestamp="1587058564371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="227" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1587058564371" />
+    <state x="741" y="359" key="NewPhpFileDialog" timestamp="1587207728667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="741" y="359" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1587207728667" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588274181683">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588274181683" />
+    <state x="568" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587042326455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="568" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587042326455" />
+  </component>
+</project>

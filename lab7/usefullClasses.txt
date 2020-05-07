@@ -1,0 +1,4 @@
+ServerConnector (set host; set port; setIdleTimeout)
+ServletContextHandler(add servlet(path);)
+Server (start;join)
+// Servlets != JettyHandler

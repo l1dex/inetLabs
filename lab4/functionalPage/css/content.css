@@ -1,0 +1,21 @@
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid lightblue;
+    background: lightblue;
+    outline: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+button{
+    padding: 10px;
+    background: lightblue;
+    border: unset;
+    cursor: pointer;
+
+}

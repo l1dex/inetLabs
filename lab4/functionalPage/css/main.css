@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+p{
+    margin: 0px 0;
+    padding: 7px;
+}
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid lightblue;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    background: lightblue;
+    border: unset;
+    cursor: pointer;
+
+}
+
+.msg{
+    border: 2px solid coral;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
